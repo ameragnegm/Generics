@@ -12,3 +12,4 @@ C:\Users\amera\source\repos\Generics\Generics\obj\Debug\net8.0\refint\Generics.d
 C:\Users\amera\source\repos\Generics\Generics\obj\Debug\net8.0\Generics.pdb
 C:\Users\amera\source\repos\Generics\Generics\obj\Debug\net8.0\Generics.genruntimeconfig.cache
 C:\Users\amera\source\repos\Generics\Generics\obj\Debug\net8.0\ref\Generics.dll
+C:\Users\amera\source\repos\Generics\Generics\obj\Debug\net8.0\Generics.sourcelink.json

@@ -10,14 +10,14 @@ namespace Generics
     {
         Dictionary<TKey, TValue> dic;
         int Capacity;
-        LinkedList<TKey> LRUlist  = new LinkedList<TKey>();
+        LinkedList<TKey> LRUlist ;
         
         
         public Cache(int capacity)
         {
             Capacity = capacity;
             dic = new Dictionary<TKey, TValue>(Capacity);
-            
+            LRUlist = new LinkedList<TKey>();
         }
 
        
@@ -45,10 +45,10 @@ namespace Generics
         public void getLRUList()
         {
             Console.Write("LRU List : ");
-            foreach (var item in LRUlist) { 
+            foreach (var item in LRUlist) 
+            { 
                 Console.Write($"{item}  ");
             }
-            Console.WriteLine();
         }
         public void Remove (TKey key)
         {
