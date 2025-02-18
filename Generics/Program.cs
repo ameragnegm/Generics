@@ -23,17 +23,17 @@
 
             // // assignment Two 
 
-            Cache<int, int> cache = new Cache<int, int>(3);
-            cache.Add(11, 93);
-            cache.Add(23, 73);
-            cache.Add(54, 33);
-            cache.Add(61, 483);
+            //Cache<int, int> cache = new Cache<int, int>(3);
+            //cache.Add(11, 93);
+            //cache.Add(23, 73);
+            //cache.Add(54, 33);
+            //cache.Add(61, 483);
 
-            Console.WriteLine(cache.retrieve(23));
+            //Console.WriteLine(cache.retrieve(23));
           
-            cache.getLRUList();
-            cache.Remove(61);
-            cache.getLRUList();
+            //cache.getLRUList();
+            //cache.Remove(61);
+            //cache.getLRUList();
 
         }
     }
